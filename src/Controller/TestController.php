@@ -23,6 +23,7 @@ class TestController extends AbstractController
     {
         return $this->render('test/test.html.twig', [
             'controller_name' => 'Mon TestController avec id',
+            'id' => $id,
         ]);
     }
 }
